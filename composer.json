@@ -1,0 +1,27 @@
+{
+  "name": "klkvsk/composer-test-project",
+  "authors": [
+    {
+      "name": "klkvsk",
+      "email": "m@klkvsk.ru"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../",
+      "options": {
+        "symlink": true
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/klkvsk/composer-test-library"
+    }
+  ],
+  "require": {
+    "klkvsk/composer-test-library": "dev-new"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

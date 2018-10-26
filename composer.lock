@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "0d348886962544ed10f8925afd8ee18a",
+    "packages": [
+        {
+            "name": "klkvsk/composer-test-library",
+            "version": "dev-new",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/klkvsk/composer-test-library.git",
+                "reference": "fda4923dc17ad3751383f64f374a61d2289651ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/klkvsk/composer-test-library/zipball/fda4923dc17ad3751383f64f374a61d2289651ce",
+                "reference": "fda4923dc17ad3751383f64f374a61d2289651ce",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib.php"
+                ]
+            },
+            "authors": [
+                {
+                    "name": "klkvsk",
+                    "email": "m@klkvsk.ru"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/klkvsk/composer-test-library/tree/new",
+                "issues": "https://github.com/klkvsk/composer-test-library/issues"
+            },
+            "time": "2018-10-25T16:10:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "klkvsk/composer-test-library": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
